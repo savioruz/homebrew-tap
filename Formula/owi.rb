@@ -6,17 +6,17 @@ class Owi < Formula
   
   on_macos do
     url "https://github.com/savioruz/owi/releases/download/v0.0.5/owi-macos.tar.gz"
-    sha256 "a1b0502e0ee23f6497c1d4deb84c3878d2ba5ddf435976ce00085098523c61ac"
+    sha256 "8b7e1a9e871b41d9fe4cbe309d5f253288105d7562afc61ee6e45f9fec3962f1"
   end
   
   on_linux do
     on_intel do
       url "https://github.com/savioruz/owi/releases/download/v0.0.5/owi-linux-x86_64.tar.gz"
-      sha256 "a9ad4ebdcbe8b351b33efb5745f2f52c6d1429fe3307ed9897c7a7741dae7ebf"
+      sha256 "f3220f5d9eba540eda5834dc513f6a35030b0d8c109258790869b5ab0d9d086d"
     end
     on_arm do
       url "https://github.com/savioruz/owi/releases/download/v0.0.5/owi-linux-aarch64.tar.gz"
-      sha256 "aa5e0273f4d83eae669fe559ab6164f602fb79d1cc596787e7808b941877c603"
+      sha256 "d2d14e6b83f6856b6264dd2cff0754611a72c46c73860a17c19661153d5d646d"
     end
   end
   
